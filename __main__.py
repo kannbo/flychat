@@ -45,4 +45,4 @@ def site(name):
     global website
     return f"""<script src="/js/site/{name}"></script><link rel="stylesheet" href="/css/site/{name}">
 {website[name]["html"]}"""
-run(host='localhost', port="8080",)
+run(host='0.0.0.0', port="10000",)
