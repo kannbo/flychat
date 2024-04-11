@@ -7,7 +7,7 @@ body{
 }""","js":'console.log("FlyApp!!")'}}
 @get('/')
 def hello():
-    return """
+    return """<title>fly chat</title>
 <form action="/create" method="POST">url
 <input name="name" type="text"><br>
 html<br>
